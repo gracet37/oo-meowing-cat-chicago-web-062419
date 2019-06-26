@@ -2,6 +2,9 @@
 class Cat 
   def name=(cat_name)
   @name = cat_name
-end 
+  end 
+  
+  def meow
+    puts "meow!"
   
 end 
